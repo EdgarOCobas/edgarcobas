@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar's Portfolio</title>
+
+    <!--            LINKS TO FONTS, STYLESHEETS AND JS         -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./ghost-typer.min.js"></script>
+
+    <script src="./progress-bar.js"></script>
+
+    <!--            END OF LINKS            -->
+
+    <script>
+        $(document).ready(function(){
+
+            $("#ghost").ghosttyper({
+                messages: [' front-end developer.', ' C# programmer.', ' back-end engineer.', ' database wizard.', 'n all-in-one deal.'],
+                timeWrite: 100,
+                timeDelete: 50,
+                timePause: 2000
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <nav>
+
+    </nav>
+    <header id="header">
+        <img src="./images/onuLogo2.png" class="logo" logo alt="logo">
+        <nav id="navigation">
+            <ul class="nav-links">
+                <li class="head-item" id="head-home">
+                    <a href="#home" class="head-link">Home</a>
+                </li>
+                <li class="head-item" id="head-about">
+                    <a href="#about" class="head-link">About</a>
+                </li>
+                <li class="head-item" id="head-skills">
+                    <a href="#skills" class="head-link">Skills</a>
+                </li>
+                <li class="head-item" id="head-services">
+                    <a href="#services" class="head-link">Services</a>
+                </li>
+            </ul>
+        </nav>
+        <button><span class="button-contact">Contact</span></button>
+    </header>
+    <section id="home">
+        <div id="intro">
+            <h1 class="intro-text">Hi, <br>I'm Edgar<br>Full-Stack Developer</h1>
+            <p class="intro-subtext">
+                &lt<span class="text-tag">code</span>&gt I'm a<span class="line-1 text-scroll" id="ghost"></span> &lt/<span class="text-tag">code</span>&gt
+            </p>
+        </div>
+    </section>
+    <section class="about-me" id="about">
+        <div class="about-intro">
+            <h2 class="about-title">About Me</h2>
+            <div class="about-info">
+                <p class="sub-text about-text">Hey! I'm <span class="p-colored">Edgar Ostrowski-Cobas</span>, a computer science enthusiast living in <span class="p-colored">Poland</span>. I began my programming journey through game development, coding simple scripts in Lua which has evolved into my now passion for technology related fields.
+                <br>
+                <br>
+                Present day, I continue my pursuit of coding, studying computer science and creating personal projects expanding my technical career. I am <span class="p-colored">available </span>for new opportunities to utilize my skills and knowledge for creating high-quality applications.</p>
+                <img src="../images/banner.jpg" class="profile-image" alt="Edgar">
+            </div>
+        </div>
+    </section>
+    <section class="my-skills" id="skills" skills>
+        <h2 class="skills-title">Skills</h2>
+        <div class="skill-container">
+            <div class="progress-bar" data-percentage="95%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">HTML5</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+        
+            <div class="progress-bar" data-percentage="65%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">Python</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+            <div class="progress-bar" data-percentage="75%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">CSS</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+            <div class="progress-bar" data-percentage="75%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">C#</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+            <div class="progress-bar" data-percentage="55%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">JavaScript</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+            <div class="progress-bar" data-percentage="90%">
+                <h4 class="progress-title-holder">
+                    <span class="progress-title">SQL</span>
+                    <span class="progress-number-wrapper">
+                        <span class="progress-number-mark">
+                            <span class="percent">
+                                <span class="down-arrow"></span>
+                            </span>
+                        </span>
+                    </span>
+                </h4>
+            </div>
+        </div>
+    </section>
+    <section class="my-services" id="services">
+        <h2 class="services-title">My Services</h2>
+        <div id="services-container">
+            <div class="services-card" id="services-web">
+                <h3 class="card-title web-card-title">Web development</h3>
+                <p class="card-text card-text-web">
+                    Designing responsive websites using a variety of web-related technologies. I keep a more simplistic approach without over-engineering details necessary for a clean look.
+                </p>
+            </div>
+            <div class="services-card" id ="services-net">
+                <h3 class="card-title net-card-title">.NET Apps</h3>
+                <p class="card-text card-text-net">
+                    Advanced C# programmer
+                    <br>
+                    Intermediate WPF app builder
+                    <br>
+                    .NET Web API prospect
+                    <br>
+                    ASP.NET enjoyer
+                </p>
+            </div>
+            <div class="services-card" id="services-db">
+                <h3 class="card-title db-card-title">Databases</h3>
+                <p class="card-text card-text-db">
+                    I manage databases such as MongoDB and MySQL thanks to my fluent knowledge of SQL. Apart from these two variants I am as well experienced using Entity in ASP.NET backend web-services.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

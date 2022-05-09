@@ -1,0 +1,14 @@
+.center-text {
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+}
+
+.orbit {
+    .center-text {
+        transition: opacity 350ms;
+        width: 10rem;
+        position: absolute;
+
+    }
+}
